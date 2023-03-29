@@ -2,14 +2,16 @@ require('dotenv').config()
 const express = require ('express');
 const sequelize = require('./db')
 
+const testRouter = require('./routes/test.routes')
+
 const PORT = process.env.PORT || 5000
 
 const app = express()
 
 const start = async () => {
    try {
-      await sequelize.authenticate()
-      await sequelize.sync()
+      //await sequelize.authenticate()
+      //await sequelize.sync()
       app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
    } catch (e) {
       console.log(e)
@@ -17,3 +19,6 @@ const start = async () => {
 }
 
 start()
+
+app.use(express.json())
+app.use('/test', testRouter);
