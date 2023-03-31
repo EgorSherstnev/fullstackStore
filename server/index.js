@@ -6,7 +6,7 @@ const cors = require('cors')
 const router = require('./routes/index')
 const errorHandler = require('./middleware/ErrorHandlingMiddleware')
 
-const testRouter = require('./routes/test.routes')
+//const testRouter = require('./routes/test.routes')
 
 const PORT = process.env.PORT || 5000
 
