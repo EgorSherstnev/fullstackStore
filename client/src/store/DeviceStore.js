@@ -16,9 +16,11 @@ export default class DeviceStore {
       ]
       this._devices = [
          {id: 1, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
-         {id: 1, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
-         {id: 1, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
-         {id: 1, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`}
+         {id: 2, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
+         {id: 3, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
+         {id: 4, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
+         {id: 5, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
+         {id: 6, name: "Iphone 12 pro", price: 25000, rating: 5, img: `https://www.hdretail.ru/upload/iblock/8d0/8d01c02a7a68c45e7d021d9d44efab9f.jpg`},
       ]
       this._selectedType = {}
       this._selectedBrand = {}
