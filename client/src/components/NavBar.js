@@ -9,9 +9,11 @@ import Button from 'react-bootstrap/Button';
 import { observer } from 'mobx-react-lite';
 import { useNavigate } from 'react-router-dom';
 
+
 const NavBar = observer(() => {
    const {user} = useContext(Context)
    const history = useNavigate()
+
    return (
       <Navbar bg="dark" variant="dark">
          <Container>
