@@ -13,7 +13,7 @@ const Admin = () => {
          <Button 
             variant={"outline-dark"} 
             className="mt-4 p-2"
-            onClick={() => setBrandVisible(true)}
+            onClick={() => setTypedVisible(true)}
          >
             Добавить тип
          </Button>
